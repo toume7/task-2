@@ -1,0 +1,54 @@
+<?php
+
+
+class bee
+{
+    public $hierarchy;
+    public $varieties;
+
+    /**
+     * bee constructor.
+     * @param $hierarchy
+     * @param $varieties
+     */
+    public function __construct($hierarchy, $varieties)
+    {
+        $this->hierarchy = $hierarchy;
+        $this->varieties = $varieties;
+    }
+
+    public function arrive()
+    {
+        /**
+         * код рождения
+         */
+    }
+
+    public function grow_up()
+    {
+        /**
+         * рост
+         */
+    }
+
+    public function collection()
+    {
+        /**
+         * код  сборы пыльцы
+         */
+    }
+
+    public function care()
+    {
+        /**
+         * код заботы о потомстве
+         */
+    }
+
+    public function doom()
+    {
+        /**
+         * гибель
+         */
+    }
+}
