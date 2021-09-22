@@ -51,4 +51,21 @@ class bee
          * гибель
          */
     }
+
+    /**
+     * @return mixed
+     */
+    public function getHierarchy()
+    {
+        return $this->hierarchy;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getVarieties()
+    {
+        return $this->varieties;
+    }
+
 }

@@ -64,4 +64,37 @@ class microwave
         код выключения
          */
     }
+
+    /**
+     * @return mixed
+     */
+    public function getColor()
+    {
+        return $this->color;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCapacit()
+    {
+        return $this->capacit;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFunctional()
+    {
+        return $this->functional;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSize()
+    {
+        return $this->size;
+    }
+
 }

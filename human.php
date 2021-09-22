@@ -78,4 +78,53 @@ class human
          * код смерти
          */
     }
+
+    /**
+     * @return mixed
+     */
+    public function getEyeColor()
+    {
+        return $this->eye_color;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getBodyType()
+    {
+        return $this->body_type;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getGender()
+    {
+        return $this->gender;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getNationality()
+    {
+        return $this->nationality;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getHeight()
+    {
+        return $this->height;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getWeight()
+    {
+        return $this->weight;
+    }
+
 }

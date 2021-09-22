@@ -67,4 +67,45 @@ class electric_kettle
          * код выключения
          */
     }
+
+    /**
+     * @return mixed
+     */
+    public function getColor()
+    {
+        return $this->color;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCapacit()
+    {
+        return $this->capacit;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFunctional()
+    {
+        return $this->functional;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getForm()
+    {
+        return $this->form;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
 }

@@ -34,4 +34,13 @@ class accountant
          * код оформления документов
          */
     }
+
+    /**
+     * @return mixed
+     */
+    public function getManagement()
+    {
+        return $this->management;
+    }
+
 }

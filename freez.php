@@ -50,4 +50,37 @@ class freez
          * код для заклдыки еды
          */
     }
+
+    /**
+     * @return mixed
+     */
+    public function getColor()
+    {
+        return $this->color;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPrice()
+    {
+        return $this->price;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFunctional()
+    {
+        return $this->functional;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCapacit()
+    {
+        return $this->capacit;
+    }
+
 }
